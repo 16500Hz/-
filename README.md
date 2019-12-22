@@ -1,3 +1,3 @@
-### Preview: https://obnoxious.club/
-#### Discord: https://discordapp.com/invite/dgc37sk
+### Preview: https://Lao-Hax.online/
+#### Discord: https://discordapp.com/invite/46tu6Ah
 ##### Please, don't remove credits
