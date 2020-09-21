@@ -44,17 +44,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
                 name: 'Kongdat',
                 link: '100014898555826'
             },
-                
-            {
-                name: 'Thanakorn',
-                link: '100025909235375'
-            },
-                
-            {
-                name: 'Ratcha',
-                link: '100021866778412'
-            },
-
+            
         ];
          
         for (var i in links) {
