@@ -139,8 +139,8 @@ pre {
 #background {
 	z-index: -2;
 	position: fixed;
-	top: 50%;
-	left: 50%;
+	top: 100%;
+	left: 100%;
 	min-width: 135%;
 	min-height: 110%;
 	width: auto;
