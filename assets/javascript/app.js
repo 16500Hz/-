@@ -23,7 +23,7 @@ var _app = function () {
 
     this.titleChanger = function (text, delay) {
         text = text ||
-            ['Kongdat', '=', 'Kongkun', 'Song name: 1MILL X FIIXD X SUNNYBONE - พิษภัย (OFFICIAL MV)'];
+            ['Kongdat', '=', 'Kongkun', 'Song name: 1-800-273-8255'];
         delay = delay || 2000;
 
         var counter = 0;
