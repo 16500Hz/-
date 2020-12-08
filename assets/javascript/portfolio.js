@@ -50,7 +50,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
             
             {
                 name: 'Steam',
-                link: 'RYZEN93900X'
+                links: 'RYZEN93900X'
             },
             
         ];
@@ -67,7 +67,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
         }
         
         for (var i in link) {
-            var link = link[i];
+            var links = link[i];
 
             $('#marquee').append('<a href="https://steamcommunity.com/id/' + link.link + '" target="_BLANK">' + link.name + '</a>');
 
