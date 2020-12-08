@@ -58,7 +58,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
         for (var i in links) {
             var link = links[i];
 
-            $('#marquee').append('<a href="https://facebook.com/' + link.link + '" target="_BLANK">' + link.name + '</a>');
+            $('#marquee').append('<a href="https://facebook.com/' + link.link + '" target="_BLANK">' + links.name + '</a>');
 
             link = $('#marquee').children('a').last();
                 
@@ -69,7 +69,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
         for (var i in link) {
             var links = link[i];
 
-            $('#marquee').append('<a href="https://steamcommunity.com/id/' + link.link + '" target="_BLANK">' + link.name + '</a>');
+            $('#marquee').append('<a href="https://steamcommunity.com/id/' + link.links + '" target="_BLANK">' + link.name + '</a>');
 
             link = $('#marquee').children('a').last();
                 
