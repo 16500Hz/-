@@ -36,18 +36,32 @@ const timeouts = [];
 const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 $(document).ready(() => {
+   const steam = [
+    {
+      name: 'Steam',
+      link: 'RYZEN93900X',
+    },
+       
+    for (let i in steam) {
+     let steam = steam[i];
+    
+     $('#marquee').append(`<a href="https://facebook.com/${steam.link}" target="_BLANK">${steam.name}</a>`);
+    
+      link = $('#marquee').children('a').last();
+    
+     if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
+    }
+}
+
+$(document).ready(() => {
 
   const links1 = [
     {
       name: 'Facebook',
       link: 'RYZEN93900X',
     },
-      
-   const links2 = [
-    {
-      name: 'Steam',
-      link: 'RYZEN93900X',
-    },
+   
+
 
   for (let i in link1) {
     let link1 = links1[i];
@@ -58,17 +72,9 @@ $(document).ready(() => {
 
     if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
   }
-    
-    for (let i in links2) {
-     let link2 = links2[i];
-    
-     $('#marquee').append(`<a href="https://facebook.com/${link2.link}" target="_BLANK">${link2.name}</a>`);
-    
-      link = $('#marquee').children('a').last();
-    
-     if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
-    }
 }
+    
+
                   
 
 
