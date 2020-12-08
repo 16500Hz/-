@@ -38,15 +38,15 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
         return check;
     };
 
-    $(document).ready(function () {
-        var links = [
+    $(document).ready(() => {
+        const links = [
             {
                 name: 'Facbook',
                 link: '100014898555826'
             },
             
         ];
-        var link = [
+        const link = [
             
             {
                 name: 'Steam',
