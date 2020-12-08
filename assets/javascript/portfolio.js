@@ -41,8 +41,16 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
     $(document).ready(function () {
         var links = [
             {
-                name: 'Kongdat',
+                name: 'Facbook',
                 link: '100014898555826'
+            },
+            
+        ];
+        var link = [
+            
+            {
+                name: 'Steam',
+                link: 'RYZEN93900X'
             },
             
         ];
@@ -51,6 +59,17 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
             var link = links[i];
 
             $('#marquee').append('<a href="https://facebook.com/' + link.link + '" target="_BLANK">' + link.name + '</a>');
+
+            link = $('#marquee').children('a').last();
+                
+            if (i != links.length - 1) 
+                $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
+        }
+        
+        for (var i in link) {
+            var link = link[i];
+
+            $('#marquee').append('<a href="https://steamcommunity.com/id/' + link.link + '" target="_BLANK">' + link.name + '</a>');
 
             link = $('#marquee').children('a').last();
                 
