@@ -68,8 +68,7 @@ GitHub: https://github.com/Lumm1t/obnoxious.club
         
         for (var i in link) {
             var link = links[i];
-
-            $('#marquee').append('<a href="https://steamcommunity.com/id/${link.link}" target="_BLANK">${link.name}</a>');
+            $('#marquee').append(`<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`);
 
             link = $('#marquee').children('a').last();
                 
