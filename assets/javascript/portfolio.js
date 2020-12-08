@@ -42,8 +42,14 @@ $(document).ready(() => {
       name: 'Facebook',
       link: 'RYZEN93900X',
     },
+      
+   const links2 = [
+    {
+      name: 'Steam',
+      link: 'RYZEN93900X',
+    },
 
-  for (let i in links) {
+  for (let i in link1) {
     let link1 = links1[i];
 
     $('#marquee').append(`<a href="https://facebook.com/${link1.link}" target="_BLANK">${link1.name}</a>`);
@@ -52,20 +58,11 @@ $(document).ready(() => {
 
     if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
   }
-  
-  
-  $(document).ready(() => {       
     
-    const links = [
-    {
-      name: 'Steam',
-      link: 'RYZEN93900X',
-    },
+    for (let i in links2) {
+     let link2 = links2[i];
     
-    for (let i in links) {
-     let link = links[i];
-    
-     $('#marquee').append(`<a href="https://facebook.com/${link.link}" target="_BLANK">${link.name}</a>`);
+     $('#marquee').append(`<a href="https://facebook.com/${link2.link}" target="_BLANK">${link2.name}</a>`);
     
       link = $('#marquee').children('a').last();
     
