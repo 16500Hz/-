@@ -40,7 +40,8 @@ $(document).ready(() => {
     {
       name: 'Steam',
       link: 'RYZEN93900X',
-    },
+    }
+   ];
        
     for (let i in steam) {
      let steam = steam[i];
@@ -60,7 +61,7 @@ $(document).ready(() => {
       name: 'Facebook',
       link: 'RYZEN93900X',
     },
-   
+  ];
 
 
   for (let i in link1) {
